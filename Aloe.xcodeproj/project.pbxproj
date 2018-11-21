@@ -9,19 +9,23 @@
 /* Begin PBXBuildFile section */
 		3E5723E321A534CE006D4ED7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5723E221A534CE006D4ED7 /* AppDelegate.swift */; };
 		3E5723E521A534CE006D4ED7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5723E421A534CE006D4ED7 /* ViewController.swift */; };
-		3E5723E821A534CE006D4ED7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5723E621A534CE006D4ED7 /* Main.storyboard */; };
 		3E5723EA21A534DB006D4ED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E5723E921A534DB006D4ED7 /* Assets.xcassets */; };
 		3E5723ED21A534DB006D4ED7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5723EB21A534DB006D4ED7 /* LaunchScreen.storyboard */; };
+		3E5723F521A54F39006D4ED7 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5723F421A54F39006D4ED7 /* PhotoViewController.swift */; };
+		40664BCF33D4EDBF4433B08C /* Pods_Aloe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A233D20E44B28F15A5E8EF /* Pods_Aloe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D4E6022985960C8C7F2FF71 /* Pods-Aloe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aloe.release.xcconfig"; path = "Target Support Files/Pods-Aloe/Pods-Aloe.release.xcconfig"; sourceTree = "<group>"; };
 		3E5723DF21A534CE006D4ED7 /* Aloe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aloe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E5723E221A534CE006D4ED7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E5723E421A534CE006D4ED7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3E5723E721A534CE006D4ED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E5723E921A534DB006D4ED7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E5723EC21A534DB006D4ED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E5723EE21A534DB006D4ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E5723F421A54F39006D4ED7 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		6192BE9F5A013C3A12B58C02 /* Pods-Aloe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aloe.debug.xcconfig"; path = "Target Support Files/Pods-Aloe/Pods-Aloe.debug.xcconfig"; sourceTree = "<group>"; };
+		96A233D20E44B28F15A5E8EF /* Pods_Aloe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aloe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40664BCF33D4EDBF4433B08C /* Pods_Aloe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				3E5723E121A534CE006D4ED7 /* Aloe */,
 				3E5723E021A534CE006D4ED7 /* Products */,
+				E086CFAFF03A3AE6F0FD8294 /* Pods */,
+				6886C2E88DF39FE59B51B188 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +63,29 @@
 			children = (
 				3E5723E221A534CE006D4ED7 /* AppDelegate.swift */,
 				3E5723E421A534CE006D4ED7 /* ViewController.swift */,
-				3E5723E621A534CE006D4ED7 /* Main.storyboard */,
+				3E5723F421A54F39006D4ED7 /* PhotoViewController.swift */,
 				3E5723E921A534DB006D4ED7 /* Assets.xcassets */,
 				3E5723EB21A534DB006D4ED7 /* LaunchScreen.storyboard */,
 				3E5723EE21A534DB006D4ED7 /* Info.plist */,
 			);
 			path = Aloe;
+			sourceTree = "<group>";
+		};
+		6886C2E88DF39FE59B51B188 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96A233D20E44B28F15A5E8EF /* Pods_Aloe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E086CFAFF03A3AE6F0FD8294 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6192BE9F5A013C3A12B58C02 /* Pods-Aloe.debug.xcconfig */,
+				0D4E6022985960C8C7F2FF71 /* Pods-Aloe.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E5723F121A534DB006D4ED7 /* Build configuration list for PBXNativeTarget "Aloe" */;
 			buildPhases = (
+				9D73C1CD5AD09ABC01C45A3D /* [CP] Check Pods Manifest.lock */,
 				3E5723DB21A534CE006D4ED7 /* Sources */,
 				3E5723DC21A534CE006D4ED7 /* Frameworks */,
 				3E5723DD21A534CE006D4ED7 /* Resources */,
+				860C02A18D43217D7BA3B1AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,11 +150,57 @@
 			files = (
 				3E5723ED21A534DB006D4ED7 /* LaunchScreen.storyboard in Resources */,
 				3E5723EA21A534DB006D4ED7 /* Assets.xcassets in Resources */,
-				3E5723E821A534CE006D4ED7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		860C02A18D43217D7BA3B1AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aloe/Pods-Aloe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AloeStackView/AloeStackView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AloeStackView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Aloe/Pods-Aloe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D73C1CD5AD09ABC01C45A3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aloe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3E5723DB21A534CE006D4ED7 /* Sources */ = {
@@ -136,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E5723E521A534CE006D4ED7 /* ViewController.swift in Sources */,
+				3E5723F521A54F39006D4ED7 /* PhotoViewController.swift in Sources */,
 				3E5723E321A534CE006D4ED7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +216,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3E5723E621A534CE006D4ED7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3E5723E721A534CE006D4ED7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3E5723EB21A534DB006D4ED7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,11 +345,13 @@
 		};
 		3E5723F221A534DB006D4ED7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6192BE9F5A013C3A12B58C02 /* Pods-Aloe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ABZ5Z67LV;
 				INFOPLIST_FILE = Aloe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +365,13 @@
 		};
 		3E5723F321A534DB006D4ED7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D4E6022985960C8C7F2FF71 /* Pods-Aloe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ABZ5Z67LV;
 				INFOPLIST_FILE = Aloe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
